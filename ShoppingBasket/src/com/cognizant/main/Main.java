@@ -2,7 +2,7 @@ package com.cognizant.main;
 
 import com.cognizant.exception.ShoppingBasketException;
 
-public class MainClass {
+public class Main {
 
 	public void addToCart(String banana, String apple, String orange, String lemon, String peaches)
 			throws ShoppingBasketException {

@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import com.cognizant.exception.ShoppingBasketException;
-import com.cognizant.main.MainClass;
+import com.cognizant.main.Main;
 
 public class TestCase {
 	String banana = "";
@@ -13,7 +13,7 @@ public class TestCase {
 	String orange = "";
 	String lemon = "";
 	String peaches = "";
-	MainClass addBasket = new MainClass();
+	Main addBasket = new Main();
 
 	@Test
 	public void successTest() {
