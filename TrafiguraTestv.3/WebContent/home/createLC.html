@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Trafigura</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <!-- <li class="active"><a href="#">Home</a></li> -->
+      <li><a href="#!/">LC List</a></li>
+      <li><a href="#!/createlc">Create New LC</a></li>
+   <!--  <!--   <li><a href="#!/lcStatus" >View LC</a></li> --> -->
+    </ul>
+  </div>
+</nav>
+<div ng-app="fileUpload" class="container">
+  <div class="row" ng-controller="upload">
+    <div class="col-md-6">
+        <input type="file" fileinput="file" filepreview="filepreview"/>
+    </div>
+    <div class="col-md-6">
+       <img ng-src="{{filepreview}}" class="img-responsive" ng-show="filepreview"/>
+<p>&nbsp;</p>
+</body>
+</html>
